@@ -17,7 +17,7 @@ const Navbar = ({ notificationCount }) => {
           <div className="brand-logo">
             <i className="fas fa-receipt"></i>
           </div>
-          <span>Enterprise Billing System</span>
+          <span>P&L SYSTEM</span>
         </Link>
 
         <ul className="navbar-menu">

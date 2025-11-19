@@ -109,6 +109,9 @@ const Dashboard = () => {
         </p>
       </div>
 
+      {/* Process Timeline - Now at the top */}
+      <Timeline timeline={timeline} />
+
       {/* Stats Cards */}
       <StatsCards stats={stats} />
 
@@ -136,9 +139,6 @@ const Dashboard = () => {
         <div className="sidebar">
           {/* Alerts Panel */}
           <AlertsPanel notifications={notifications} />
-
-          {/* Timeline */}
-          <Timeline timeline={timeline} />
         </div>
       </div>
 
