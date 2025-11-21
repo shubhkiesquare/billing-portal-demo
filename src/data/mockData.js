@@ -181,42 +181,28 @@ export const timeline = [
   {
     id: 1,
     title: 'Data Collection Phase',
-    date: '25th - 29th Nov 2024',
+    date: '28th - 2nd Dec 2025',
     description: 'All required files collected from teams',
     status: 'completed'
   },
   {
     id: 2,
-    title: 'OPCO Allocation',
-    date: '1st Dec 2024 - In Progress',
-    description: 'Processing PTM-wise allocation for active sites (65% complete)',
-    status: 'active'
-  },
-  {
-    id: 3,
-    title: 'Cost Split (80-20)',
-    date: '1st Dec 2024 - Scheduled',
-    description: 'Automated cost allocation between OPCO and ISQ',
-    status: 'pending'
-  },
-  {
-    id: 4,
-    title: 'Data Consolidation',
-    date: '1st Dec 2024 - Pending',
+    title: 'Data Consolidation via python scripts',
+    date: '2nd Dec 2025 - Pending',
     description: 'Merge all data sources into unified dataset',
     status: 'pending'
   },
   {
-    id: 5,
+    id: 3,
     title: 'P&L Report Generation',
-    date: '1st Dec 2024 - Pending',
+    date: '3rd Dec 2025 - Pending',
     description: 'Generate and validate monthly P&L report',
     status: 'pending'
   },
   {
-    id: 6,
+    id: 4,
     title: 'Report Distribution',
-    date: '1st Dec 2024 - Pending',
+    date: '3rd Dec 2025 - Pending',
     description: 'Email report to stakeholders',
     status: 'pending'
   }
