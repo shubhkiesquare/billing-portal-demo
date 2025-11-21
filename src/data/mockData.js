@@ -1,41 +1,20 @@
 // Mock data for demo purposes
 
 export const uploadCategories = [
+  
   {
     id: 1,
-    name: 'EB Billing Data',
-    responsible: 'Manoj Pandey',
-    team: 'Finance',
-    deadline: 25,
-    status: 'completed',
-    uploadDate: '2024-11-24T14:30:00',
-    fileSize: '2.4 MB',
-    recordCount: 1250
-  },
-  {
-    id: 2,
-    name: 'EB Provision Data',
-    responsible: 'Nilesh Luhadiya',
-    team: 'AP Team',
-    deadline: 25,
-    status: 'completed',
-    uploadDate: '2024-11-25T10:15:00',
-    fileSize: '1.8 MB',
-    recordCount: 980
-  },
-  {
-    id: 3,
     name: 'Cost Site Wise Data',
     responsible: 'Nilesh Luhadiya',
     team: 'AP Team',
-    deadline: 26,
+    deadline: 28,
     status: 'completed',
     uploadDate: '2024-11-26T09:45:00',
     fileSize: '3.1 MB',
     recordCount: 1540
   },
   {
-    id: 4,
+    id: 2,
     name: 'Transaction Register',
     responsible: 'Rajesh Malik',
     team: 'AR Team',
@@ -46,7 +25,7 @@ export const uploadCategories = [
     recordCount: 2350
   },
   {
-    id: 5,
+    id: 3,
     name: 'Revenue Provision Data',
     responsible: 'Amit Jain',
     team: 'AR Team',
@@ -57,7 +36,7 @@ export const uploadCategories = [
     recordCount: 1120
   },
   {
-    id: 6,
+    id: 4,
     name: 'Unbilled Revenue Data',
     responsible: 'Harshal',
     team: 'Billing Team',
@@ -68,7 +47,7 @@ export const uploadCategories = [
     recordCount: 750
   },
   {
-    id: 7,
+    id: 5,
     name: 'Invoice Listing / Billing Revenue',
     responsible: 'Vikas',
     team: 'Billing Team',
@@ -79,37 +58,72 @@ export const uploadCategories = [
     recordCount: null
   },
   {
-    id: 8,
-    name: 'OPCO Allocation Processing',
-    responsible: 'System Automated',
-    team: 'System',
-    deadline: 1,
+    id: 6,
+    name: 'OPCO ENERGY PASS DIESEL INDUS PART 1',
+    responsible: 'OBRM',
+    team: 'OBRM',
+    deadline: 2,
     status: 'processing',
     uploadDate: '2024-12-01T08:00:00',
     progress: 65,
     eta: '45 minutes'
   },
-  {
-    id: 9,
-    name: 'Cost Allocation (80-20 Split)',
-    responsible: 'System Automated',
-    team: 'System',
-    deadline: 1,
-    status: 'pending',
-    uploadDate: null,
-    dependency: 'OPCO Allocation'
+   {
+    id: 7,
+    name: 'OPCO ENERGY PASS DIESEL INDUS PART 2',
+    responsible: 'OBRM',
+    team: 'OBRM',
+    deadline: 2,
+    status: 'processing',
+    uploadDate: '2024-12-01T08:00:00',
+    progress: 65,
+    eta: '45 minutes'
   },
-  {
+   {
+    id: 8,
+    name: 'OPCO ENERGY PASS DSL BIL',
+    responsible: 'OBRM',
+    team: 'OBRM',
+    deadline: 2,
+    status: 'processing',
+    uploadDate: '2024-12-01T08:00:00',
+    progress: 65,
+    eta: '45 minutes'
+  },
+   {
+    id: 9,
+    name: 'OPCO ENERGY PASS DIESEL INDUS',
+    responsible: 'OBRM',
+    team: 'OBRM',
+    deadline: 2,
+    status: 'processing',
+    uploadDate: '2024-12-01T08:00:00',
+    progress: 65,
+    eta: '45 minutes'
+  },
+   {
     id: 10,
-    name: 'P&L Monthly Report',
-    responsible: 'System Automated',
-    team: 'System',
+    name: 'OPCO ENERGY PASS DSL BIL',
+    responsible: 'OBRM',
+    team: 'OBRM',
+    deadline: 2,
+    status: 'processing',
+    uploadDate: '2024-12-01T08:00:00',
+    progress: 65,
+    eta: '45 minutes'
+  },
+   {
+    id: 11,
+    name: 'ISQ PRE BILLED DUMP',
+    responsible: 'ISQ',
+    team: 'ISQ',
     deadline: 1,
-    status: 'pending',
-    uploadDate: null,
-    dependency: 'Cost Allocation'
-  }
-];
+    status: 'processing',
+    uploadDate: '2024-12-01T08:00:00',
+    progress: 65,
+    eta: '45 minutes'
+  }]
+    ;
 
 export const users = [
   { id: 1, name: 'Manoj Pandey', email: 'manoj.pandey@company.com', team: 'Finance', role: 'Finance Manager' },
